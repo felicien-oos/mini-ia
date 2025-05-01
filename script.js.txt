@@ -1,0 +1,16 @@
+function repondre() {
+  const question = document.getElementById("question").value.toLowerCase();
+  let reponse = "";
+
+  if (question.includes("distance") && question.includes("afrique") && question.includes("madagascar")) {
+    reponse = "La distance entre Madagascar et l'Afrique est d'environ 400 km (au niveau du canal du Mozambique).";
+  } else if (question.includes("capitale") && question.includes("france")) {
+    reponse = "La capitale de la France est Paris.";
+  } else if (question.includes("lune")) {
+    reponse = "La Lune est à environ 384 400 km de la Terre.";
+  } else {
+    reponse = "Désolé, je ne connais pas encore la réponse à cette question.";
+  }
+
+  document.getElementById("reponse").textContent = reponse;
+}

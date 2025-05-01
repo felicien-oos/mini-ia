@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini IA - Questions simples</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Pose-moi une question !</h1>
+  <input type="text" id="question" placeholder="Ex: Quelle est la distance entre l'Afrique et Madagascar ?" />
+  <button onclick="repondre()">Envoyer</button>
+  <p id="reponse"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>

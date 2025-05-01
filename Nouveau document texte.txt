@@ -22,7 +22,7 @@
       const reponseDiv = document.getElementById("reponse");
       reponseDiv.innerText = "Je réfléchis... 🤔";
 
-      const apiKey = "TA_CLE_API_ICI"; // ← Remplace ici par ta vraie clé
+      const apiKey =  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// ← Remplace ici par ta vraie clé
 
       const data = {
         model: "gpt-3.5-turbo",
